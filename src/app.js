@@ -30,9 +30,6 @@
         if(text.match(/migrant/gi)){
             text = text.replace(/migrant/g, 'fellow human');
             text = text.replace(/Fellow Human/g, 'Fellow Human');
-            text = text.replace(/migrans/g, 'fellow humans');
-            text = text.replace(/Migrant/g, 'Fellow Human');
-            text = text.replace(/Migrants/g, 'Fellow Humans');
         }
         return text;
     };
